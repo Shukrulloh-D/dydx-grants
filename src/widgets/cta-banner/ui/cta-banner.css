@@ -1,0 +1,4 @@
+.cta-banner { background: linear-gradient(135deg, #6966FF 0%, #8A87FF 100%); border-radius: 16px; padding: 60px 20px; text-align: center; margin: 80px 0; position: relative; overflow: hidden; }
+.cta-banner::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 20px 20px; pointer-events: none; }
+.cta-subtitle { color: rgba(255,255,255,0.9); margin-bottom: 12px; }
+.cta-title { font-size: 36px; margin-bottom: 32px; color: #fff; font-weight: 700; }

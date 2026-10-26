@@ -1,0 +1,7 @@
+.btn { padding: 12px 24px; border-radius: 8px; font-weight: 600; font-size: 14px; transition: all 0.2s ease; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.btn-primary { background-color: var(--primary); color: #fff; }
+.btn-primary:hover { background-color: var(--primary-hover); transform: translateY(-2px); }
+.btn-secondary { background-color: var(--bg-card); color: var(--text-main); border: 1px solid var(--border); }
+.btn-secondary:hover { background-color: var(--bg-card-hover); }
+.btn-white { background-color: #fff; color: var(--primary); }
+.btn-white:hover { background-color: #f0f0f0; transform: translateY(-2px); }

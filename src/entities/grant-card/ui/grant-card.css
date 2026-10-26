@@ -1,0 +1,12 @@
+.grant-card { background: var(--bg-card); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; min-height: 380px; transition: all 0.3s ease; border: 1px solid transparent; }
+.grant-card:hover { background: var(--bg-card-hover); border-color: var(--primary); transform: translateY(-4px); }
+.grant-category { display: block; margin-bottom: 16px; }
+.grant-title { font-size: 22px; margin-bottom: 12px; color: #fff; line-height: 1.3; }
+.grant-amount { margin-bottom: 20px; }
+.grant-desc { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+.grant-card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 32px; }
+.avatar-group { display: flex; }
+.avatar { width: 36px; height: 36px; border-radius: 50%; background: #444; border: 2px solid var(--bg-card); margin-left: -12px; background-size: cover; background-position: center; }
+.avatar:first-child { margin-left: 0; }
+.card-arrow { color: var(--text-muted); transition: 0.3s; }
+.grant-card:hover .card-arrow { color: var(--primary); }

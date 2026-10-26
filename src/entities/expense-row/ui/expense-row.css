@@ -1,0 +1,3 @@
+.expense-row { background: var(--bg-card); padding: 20px 32px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.expense-title { font-size: 16px; margin-bottom: 4px; }
+.expense-amount { display: flex; align-items: center; gap: 8px; }

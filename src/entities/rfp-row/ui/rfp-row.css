@@ -1,0 +1,5 @@
+.rfp-row { background: var(--bg-card); padding: 24px 32px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; transition: 0.2s; border: 1px solid transparent;}
+.rfp-row:hover { background: var(--bg-card-hover); border-color: var(--border); }
+.rfp-title { font-size: 18px; margin-bottom: 8px; }
+.rfp-desc { color: var(--text-muted); font-size: 14px; margin-bottom: 12px; max-width: 700px; }
+@media (max-width: 768px) { .rfp-row { flex-direction: column; align-items: flex-start; gap: 16px; } }

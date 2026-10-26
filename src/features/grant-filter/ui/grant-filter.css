@@ -1,0 +1,4 @@
+.tabs-container { display: flex; justify-content: center; gap: 12px; margin-bottom: 40px; flex-wrap: wrap; }
+.tab-btn { background: var(--bg-card); color: var(--text-muted); padding: 10px 24px; border-radius: 6px; transition: 0.2s; border: 1px solid transparent;}
+.tab-btn:hover { background: var(--bg-card-hover); color: #fff; }
+.tab-btn.active { background: var(--primary); color: #fff; }

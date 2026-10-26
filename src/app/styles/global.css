@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg-main: #1C1C28;
+  --bg-card: #2D2D3D;
+  --bg-card-hover: #353545;
+  --primary: #6966FF;
+  --primary-hover: #5855E0;
+  --text-main: #FFFFFF;
+  --text-muted: #A0A0B0;
+  --success: #10B981;
+  --border: #3D3D4D;
+  --font-family: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  /* Точная сетка как в Figma */
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+
+.container { 
+  max-width: 1440px; 
+  margin: 0 auto; 
+  padding: 0 48px; 
+}
+
+.text-mono { font-family: var(--font-mono); text-transform: uppercase; font-size: 12px; letter-spacing: 1px; }
+.title-h1 { font-size: 56px; font-weight: 700; line-height: 1.1; margin-bottom: 24px; letter-spacing: -1px;}
+.title-h2 { font-size: 36px; font-weight: 700; margin-bottom: 16px; }
+.text-center { text-align: center; }
+.mb-40 { margin-bottom: 40px; }
+.mt-60 { margin-top: 60px; }
+.text-muted { color: var(--text-muted); }
+
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+
+@media (max-width: 992px) {
+  .container { padding: 0 20px; }
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .title-h1 { font-size: 40px; }
+}
