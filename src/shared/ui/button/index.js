@@ -1,1 +1,1 @@
-export * from './ui/button.jsx';
+export * from './ui/button';

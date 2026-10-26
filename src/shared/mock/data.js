@@ -5,6 +5,9 @@ export const grants = [
   { id: 4, category: 'Education', title: 'Youtube dYdX Education Library', amount: '$5,000', description: 'Grant includes work on Funding Rates page, Rewards & Tracking Simulator, and CLI Trading tool.', team: ['/images/avatar2.png'], image: '/images/cover.png', isCompleted: true },
   { id: 5, category: 'Crowdfund', title: 'Hedge banner', amount: '$5,000 - $6,000', description: 'They can be used to defi... the sponsors to the end of the solar system.', team: ['/images/avatar1.png'], image: null, isCompleted: false },
   { id: 6, category: 'Crowdfund', title: 'Hedge educational content', amount: '$5,000 - $6,000', description: 'This proposal is to expand into the emerging world of decentralized finance.', team: ['/images/avatar2.png'], image: null, isCompleted: false },
+  { id: 7, category: 'Analytics', title: 'DGP referral program', amount: '$5,000 - $6,000', description: 'They finally attained a consistent description of the behavior of matter at a fundamental level.', team: ['/images/avatar3.png', '/images/avatar1.png'], image: null, isCompleted: false },
+  { id: 8, category: 'Growth', title: 'ETHGlobal event sponsorship', amount: '$5,000 - $6,000', description: 'Because atomic behavior is so unlike ordinary experience, it is very difficult to get used to.', team: ['/images/avatar2.png'], image: null, isCompleted: true },
+  { id: 9, category: 'Education', title: 'Rust SDK', amount: '$5,000 - $6,000', description: 'At the end of the 19th century, physics seemed to be almost complete.', team: ['/images/avatar1.png'], image: null, isCompleted: false },
 ];
 
 export const rfps = [
@@ -20,6 +23,7 @@ export const rfps = [
   { id: 10, title: 'Reward tracking & Simulator', description: 'Page or tool that allows traders to calculate future rewards', amount: '$20,000 - $30,000', status: 'Funded' }
 ];
 
+// Добавили больше постов в блог
 export const blogPosts = [
   { id: 1, title: 'Round 9 of approvals', date: 'January 1, 2022', category: 'Funding round' },
   { id: 2, title: 'Round 8 of approvals', date: 'January 1, 2022', category: 'Funding round' },
@@ -27,6 +31,8 @@ export const blogPosts = [
   { id: 4, title: 'Round 6 of approvals', date: 'January 1, 2022', category: 'Funding round' },
   { id: 5, title: 'Round 5 of approvals', date: 'January 1, 2022', category: 'Funding round' },
   { id: 6, title: 'Round 4 of approvals', date: 'January 1, 2022', category: 'Funding round' },
+  { id: 7, title: 'Round 3 of approvals', date: 'January 1, 2022', category: 'Funding round' },
+  { id: 8, title: 'Round 2 of approvals', date: 'January 1, 2022', category: 'Funding round' },
 ];
 
 export const faqData = [
@@ -34,7 +40,7 @@ export const faqData = [
   { q: 'Can I apply as a U.S. based person/company?', a: 'Yes, you can apply.' },
   { q: 'How will I be compensated?', a: 'Compensation is in USDC.' },
   { q: 'What type of project will qualify for a Grant?', a: 'Any project that benefits the dYdX ecosystem.' },
-  { q: 'What is the application timeline?', a: 'Usually within 2-3 weeks.' },
-  { q: 'How can I increase my chances?', a: 'Provide a detailed plan and execution timeline.' },
-  { q: 'How often do you approve new Rounds?', a: 'Monthly.' },
+  { q: 'What is the application timeline? When can I expect to hear back?', a: 'Usually within 2-3 weeks.' },
+  { q: 'How can I increase my chances of getting funded?', a: 'Provide a detailed plan and execution timeline.' },
+  { q: 'How often do you approve new Rounds of funding?', a: 'Monthly.' },
 ];

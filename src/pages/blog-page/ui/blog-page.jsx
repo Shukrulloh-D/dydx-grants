@@ -9,11 +9,16 @@ export default function BlogPage() {
     <div className="container page-wrapper">
       <div className="text-center mb-40"><h1 className="title-h1">Blog</h1></div>
       <GrantFilter options={['Latest', 'Funding round', 'Spotlight', 'News']} current="Latest" onChange={() => {}} />
-      <div className="grid-2">
-        <BlogLoadMore total={blogPosts.length} initial={4} step={2}>
-          {(visible) => blogPosts.slice(0, visible).map(post => <ArticleCard key={post.id} post={post} />)}
-        </BlogLoadMore>
-      </div>
+      
+      {/* Используем наш новый класс blog-grid для правильного расположения */}
+      <BlogLoadMore total={blogPosts.length} initial={4} step={2}>
+        {(visible) => (
+          <div className="blog-grid">
+            {blogPosts.slice(0, visible).map(post => <ArticleCard key={post.id} post={post} />)}
+          </div>
+        )}
+      </BlogLoadMore>
+      
     </div>
   );
 }

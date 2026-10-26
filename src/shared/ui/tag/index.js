@@ -1,1 +1,1 @@
-export * from './ui/tag.jsx';
+export * from './ui/tag';
