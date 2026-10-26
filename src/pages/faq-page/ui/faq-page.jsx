@@ -8,13 +8,13 @@ export default function FaqPage() {
     <div className="container page-wrapper" style={{ paddingTop: '80px', maxWidth: '900px', margin: '0 auto' }}>
       <h1 className="title-h1 text-center mb-60">Frequently asked questions</h1>
       
-      {/* Блок 1 */}
+      {/*  1 */}
       <div className="faq-section">
         <h3 className="faq-section-title">Grant application process</h3>
         <FaqAccordion items={faqData} />
       </div>
 
-      {/* Блок 2 */}
+      {/*  2 */}
       <div className="faq-section mt-60">
         <h3 className="faq-section-title">Selection criteria</h3>
         <FaqAccordion items={[
@@ -25,7 +25,7 @@ export default function FaqPage() {
         ]} />
       </div>
 
-      {/* Блок 3 */}
+      {/*  3 */}
       <div className="faq-section mt-60">
         <h3 className="faq-section-title">The Grants Trust</h3>
         <FaqAccordion items={[

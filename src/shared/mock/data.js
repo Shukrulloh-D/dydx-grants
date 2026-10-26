@@ -23,7 +23,7 @@ export const rfps = [
   { id: 10, title: 'Reward tracking & Simulator', description: 'Page or tool that allows traders to calculate future rewards', amount: '$20,000 - $30,000', status: 'Funded' }
 ];
 
-// Добавили больше постов в блог
+// посты в блог
 export const blogPosts = [
   { id: 1, title: 'Round 9 of approvals', date: 'January 1, 2022', category: 'Funding round' },
   { id: 2, title: 'Round 8 of approvals', date: 'January 1, 2022', category: 'Funding round' },

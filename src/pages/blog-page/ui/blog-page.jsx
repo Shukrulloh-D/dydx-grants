@@ -10,7 +10,6 @@ export default function BlogPage() {
       <div className="text-center mb-40"><h1 className="title-h1">Blog</h1></div>
       <GrantFilter options={['Latest', 'Funding round', 'Spotlight', 'News']} current="Latest" onChange={() => {}} />
       
-      {/* Используем наш новый класс blog-grid для правильного расположения */}
       <BlogLoadMore total={blogPosts.length} initial={4} step={2}>
         {(visible) => (
           <div className="blog-grid">

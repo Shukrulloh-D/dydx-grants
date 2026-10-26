@@ -1,18 +1,15 @@
 .page-wrapper { 
   padding-top: 80px; 
-  /* Ограничиваем ширину страницы блога, чтобы карточки не растягивались */
   max-width: 900px; 
   margin: 0 auto; 
 }
 
-/* Переопределяем глобальный grid-2, чтобы карточки стояли ровно по 2 в ряд */
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 
-/* Центрируем кнопку Load More */
 .load-more-wrapper {
   display: flex;
   justify-content: center;

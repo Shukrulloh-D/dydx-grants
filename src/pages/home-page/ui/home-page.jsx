@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       <section className="hero container text-center">
         <h1 className="title-h1">Powering the future of<br/>dYdX through<br/>community grants</h1>
-        {/* Встроенная SVG закарючка под текстом */}
+        {/* SVG  */}
         <div className="hero-squiggle">
            <svg width="200" height="20" viewBox="0 0 200 20" fill="none"><path d="M5 15C50 5 100 15 195 5" stroke="#6966FF" strokeWidth="3" strokeLinecap="round"/></svg>
         </div>
@@ -26,7 +26,7 @@ export default function HomePage() {
           <div className="stat"><h3>$3+ million</h3><p className="text-mono text-muted">awarded</p></div>
           <div className="stat"><h3>400+</h3><p className="text-mono text-muted">projects funded</p></div>
         </div>
-        {/* Большая стрелка вниз */}
+        {/* стрелка поён */}
         <div className="decor-arrow-down">
           <svg width="24" height="40" viewBox="0 0 24 40" fill="none" stroke="#6966FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v30M5 28l7 7 7-7"/></svg>
         </div>

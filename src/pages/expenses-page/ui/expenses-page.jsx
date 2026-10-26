@@ -2,7 +2,6 @@ import { ExpenseRow } from '@/entities/expense-row';
 import { GrantFilter } from '@/features/grant-filter';
 import './expenses-page.css';
 
-// Добавили много данных, как на скрине Figma
 const mockExpenses = [
   { id: 1, title: 'Airtable Yearly Subscription', type: 'Vendor', amount: '$850.00' },
   { id: 2, title: 'Expense title', type: 'Type', amount: '-$1,100.37 USDC' },

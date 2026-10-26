@@ -18,7 +18,7 @@ export default function Header() {
     <header className="header">
       <div className="container header-container">
         <Link to="/" className="logo" onClick={() => setIsOpen(false)}>
-          {/* Если логотипа нет, покажет текст */}
+          {/* Логотип/текст*/}
           <img src="/logo.png" alt="dYdX grants" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling.style.display='flex'; }} />
           <span className="logo-text" style={{display: 'none'}}>dYdX<span>grants</span></span>
         </Link>
@@ -35,13 +35,13 @@ export default function Header() {
         
         <div className="header-actions">
           <Link to="/apply" className="desktop-apply"><Button>Apply for grant</Button></Link>
-          {/* Бургер на чистом CSS */}
+          {/* Бургер  */}
           <button className={`burger ${isOpen ? 'active' : ''}`} onClick={() => setIsOpen(!isOpen)}>
             <span></span><span></span><span></span>
           </button>
         </div>
       </div>
-      {/* Мобильное меню */}
+      {/* Мобилька */}
       <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
         {navItems.map((item) => (
           <Link key={item.path} to={item.path} className="mobile-link" onClick={() => setIsOpen(false)}>{item.label}</Link>

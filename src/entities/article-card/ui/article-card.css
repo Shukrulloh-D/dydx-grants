@@ -2,7 +2,7 @@
 .article-card:hover { transform: translateY(-4px); border-color: var(--border); }
 .article-image-wrapper { padding: 8px; }
 .article-image-inner { height: 220px; background: var(--bg-main); border: 2px solid var(--primary); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 24px; position: relative; overflow: hidden; }
-/* Фиолетовая закарючка в углу */
+/* закарючка в углу */
 .article-image-inner::after { content: ''; position: absolute; bottom: -2px; right: -2px; width: 32px; height: 32px; background: var(--primary); clip-path: polygon(100% 0, 100% 100%, 0 100%); border-bottom-right-radius: 10px; }
 .article-image-title { font-size: 26px; color: #fff; margin-top: 12px; line-height: 1.2; }
 .article-content { padding: 24px; }

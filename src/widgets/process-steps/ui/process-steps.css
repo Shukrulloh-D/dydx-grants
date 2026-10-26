@@ -2,7 +2,6 @@
 .process-steps { display: flex; justify-content: center; gap: 0; max-width: 1000px; margin: 0 auto; position: relative; }
 .step-card { background: var(--bg-card); padding: 40px 32px; border-radius: 12px; width: 320px; position: relative; border: 1px solid var(--border); transition: 0.3s; }
 .step-card:hover { transform: translateY(-5px) rotate(0deg) !important; border-color: var(--primary); z-index: 10; }
-/* Точный наклон как в Figma */
 .step-1 { transform: rotate(-4deg) translateY(15px); margin-right: -20px; z-index: 1; }
 .step-2 { transform: rotate(1.5deg) translateY(-10px); margin-left: -20px; margin-right: -20px; z-index: 2; }
 .step-3 { transform: rotate(-2deg) translateY(15px); margin-left: -20px; z-index: 1; }

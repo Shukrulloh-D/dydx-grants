@@ -17,7 +17,7 @@ export default function GrantCard({ grant }) {
           ))}
         </div>
         <div className="card-arrow">
-          {/* Встроенная SVG стрелочка вместо lucide */}
+          {/* SVG стрелка бе lucide */}
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
         </div>
       </div>
